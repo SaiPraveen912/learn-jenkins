@@ -18,6 +18,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo This is Build'
+                echo "triggered Build"
             }
         }
         stage('Test') {
